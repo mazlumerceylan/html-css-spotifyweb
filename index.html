@@ -6,19 +6,163 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spotify Web</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' integrity='sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==' crossorigin='anonymous'/>
+
 </head>
 <body>
 
 
-  <div class="menu-top">
+  <!-- <div class="menu-top">
     <a href="">Effettua l´Upgrade</a>
 
+  </div> -->
+
+  <div class="main-wrapper">
+      <main>
+        <aside>
+          <div class="logo"><img src="img/logo.svg" alt="Logo">
+          </div>
+          <ul>
+            <li><a href=""><i class="fa-regular fa-house-chimney"></i> Home</a></li>
+            <li><a href=""><i class="fa-regular fa-magnifying-glass"></i> Cerca</a></li>
+            <li><a href=""><i class="fa-solid fa-books"></i> La tua libreeria</a></li>
+          </ul>
+
+          <span><strong>Playlist</strong></span>
+    
+          <ul class="playlist">
+            <li><a href=""><i class="fa-solid fa-plus"></i> Crea playlist</a></li>
+            <li><a href="">Nuovo playlist</a></li>
+            <li><a href="">Nuovo playlist</a></li>
+            <li><a href="">Nuovo playlist</a></li>
+            <li><a href="">Nuovo playlist</a></li>
+            <li><a href="">Nuovo playlist</a></li>
+            <li><a href="">Nuovo playlist</a></li>
+            <li><a href="">Nuovo playlist</a></li>
+          </ul>
+
+          <div class="aside-bottom">
+            <a href=""><i class="fa-regular fa-circle-down"></i> Installa App</a>
+          
+            <div class="linee"></div>
+
+            <div class="user-profile">
+              <span><a href=""><i class="fa-solid fa-user"></i> Mazlum Erceylan</a></span>
+            </div>
+          </div>
+
+
+        </aside>
+
+
+        <div class="content">
+          
+
+          <nav>
+            <ul>
+              <li><a href="">IN EVIDENZA</a></li>
+              <li><a href="">PODCAST</a></li>
+              <li><a href="">CLASSIFICHE</a></li>
+              <li><a href="">GENERI E MOOD</a></li>
+              <li><a href="">NUOVE USCITE</a></li>
+              <li><a href="">SCOPRI</a></li>
+            </ul>
+          </nav>
+
+          <h1><strong>Recently Played</strong></h1>
+
+
+          <div class="card-box">
+            <div class="card">
+              <img src="img/metal_lifting.jpg" alt="">
+              <i class="fa-regular fa-play"></i>
+              <span>Heavy Metal</span>
+              <a href="">Subtitle</a>
+            </div>
+            <div class="card">
+              <img src="img/stranger.jpeg" alt="">
+              <i class="fa-regular fa-play"></i>
+              <span>Stranger Things, Vol.
+                1 (a Netflix Original Series Soundtrack)</span>
+              <a href="">Kvle Dixon & Michael Stein</a>
+            </div>
+            <div class="card">
+              <img src="img/aquietplace.jpeg" alt="">
+              <i class="fa-regular fa-play"></i>
+              <span>A guiet place</span>
+              <a href="">Subtitle</a>
+            </div>
+            <div class="card">
+              <img src="img/split.jpeg" alt="">
+              <i class="fa-regular fa-play"></i>
+              <span>Split</span>
+              <a href="">Subtitle</a>
+            </div>
+            <div class="card">
+              <img src="img/cure.jpeg" alt="">
+              <i class="fa-regular fa-play"></i>
+              <span>A cure for wellness</span>
+              <a href="">Subtitle</a>
+            </div>
+            <div class="card">
+              <img src="img/sinister.jpeg" alt="">
+              <i class="fa-regular fa-play"></i>
+              <span>Sinister</span>
+              <a href="">Subtitle</a>
+            </div>
+          </div>
+
+          <h1><strong>Created For You</strong></h1>
+          <span class="mini-title">Più ascolti, più accurati saranno i suggerimenti.</span>
+
+
+          <div class="card-created4you">
+            <div class="card">
+              <img src="img/radar.jpeg" alt="">
+              <h3>Realase Radar</h3>
+            </div>
+            <div class="card">
+              <img src="img/mixdaily.jpeg" alt="">
+              <h3>Daily Mix 1</h3>
+            </div>
+          </div>
+
+          <h1><strong>Artisti più popolari</strong></h1>
+          <span class="mini-title">Più ascolti, più accurati saranno i suggerimenti.</span>
+
+          <div class="card-popular">
+            <div class="card">
+              <img src="img/youg.jpeg" alt="">
+              <h3>Realase Radar</h3>
+            </div>
+            <div class="card">
+              <img src="img/einaudi.jpeg" alt="">
+              <h3>Daily Mix 1</h3>
+            </div>
+        </div>
+        
+        
+
+          
+  
+
+
+
+      </main>
+
+      <div class="player"></div>
+
+      
+    
   </div>
-  <main>
-    <div class="main-wrapper">
+
+
+
+   
+    <!-- <div class="main-wrapper"> -->
       
 
-      <div class="center">
+      <!-- <div class="center">
         <div class="menu-left">
           <div class="left-top">
             <img src="img/logo.svg" alt="Logo">
@@ -51,7 +195,7 @@
             </div>
           </div>
           
-
+        </div>        
 
 
         </div>
@@ -67,21 +211,37 @@
               <li><a href="">SCOPRI</a></li>
             </ul>
           </nav>
+          <div class="card-boox">
+            <div class="card">
+              <img src="img/metal_lifting.jpg" alt="">
+            </div>
+            <div class="card">
+              <img src="img/stranger.jpeg" alt="">
+            </div>
+            <div class="card">
+              <img src="img/aquietplace.jpeg" alt="">
+            </div>
+            <div class="card">
+              <img src="img/split.jpeg" alt="">
+            </div>
+            <div class="card">
+              <img src="img/cure.jpeg" alt="">
+            </div>
+            <div class="card"><img src="img/sinister.jpeg" alt=""></div>
+            </div>
+          </div>
 
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
+
         </div>
-      </div>
-    </div>
-  </main>
 
-  <div class="menu-bottom">
+        
+
+    </div> -->
+  
+
+  <!-- <div class="menu-bottom">
       
-  </div>
+  </div> -->
 
   
 </body>
